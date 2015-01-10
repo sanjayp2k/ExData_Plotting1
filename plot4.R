@@ -41,7 +41,7 @@ lines(subsetPowerConsumptionData$Date, subsetPowerConsumptionData$Sub_metering_1
 lines(subsetPowerConsumptionData$Date, subsetPowerConsumptionData$Sub_metering_2, col="red")
 lines(subsetPowerConsumptionData$Date, subsetPowerConsumptionData$Sub_metering_3, col="blue")
 ## set legends
-legend("topright", col=c("black", "blue", "red"), legend= c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3" ), lwd=1)
+legend("topright", col=c("black", "blue", "red"), legend= c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3" ), lwd=1, bty="n")
 
 
 ## plot fourth graph
